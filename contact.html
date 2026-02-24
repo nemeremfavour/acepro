@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Acepro & Co. Dynamics</title>
+  <meta name="description"
+    content="Get in touch with Acepro & Co. Dynamics. We are available 24/7 to discuss your engineering and technical requirements.">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+    rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+
+  
+  <link rel="stylesheet" href="styles/style.css">
+
+  <style>
+    .page-hero {
+      background: linear-gradient(rgba(11, 32, 70, 0.9), rgba(11, 32, 70, 0.9)), url('https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1920') center/cover;
+      color: var(--color-bg-white);
+      padding: 6rem 0;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      color: var(--color-bg-white);
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .contact-grid {
+      display: grid;
+      gap: 4rem;
+      grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 1024px) {
+      .contact-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    .info-card {
+      background: var(--color-bg-white);
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--color-border);
+      height: 100%;
+    }
+
+    .info-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .info-item:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+    }
+
+    .info-icon {
+      font-size: 1.5rem;
+      color: var(--color-secondary);
+      background: rgba(0, 230, 118, 0.1);
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .info-content h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      color: var(--color-primary);
+    }
+
+    .info-content p,
+    .info-content a {
+      color: var(--color-text-muted);
+      font-size: 1.125rem;
+    }
+
+    .info-content a:hover {
+      color: var(--color-secondary);
+    }
+
+    .map-container {
+      width: 100%;
+      height: 400px;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <header class="navbar">
+    <div class="container flex justify-between items-center">
+      <a href=" ./" class="logo">
+        <i class="fa-solid fa-helmet-safety text-secondary"></i>
+        Acepro & Co. <span>Dynamics</span>
+      </a>
+
+      <button class="mobile-menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links">
+        <a href=" ./" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="quote.html" class="btn btn-accent">Request a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p style="font-size: 1.25rem; color: #CBD5E1; max-width: 600px; margin: 0 auto;">Reach out to our experts. We
+        operate with 24/7 responsiveness to keep your projects on track.</p>
+    </div>
+  </section>
+
+  
+  <section class="section section-light">
+    <div class="container">
+      <div class="contact-grid">
+
+        
+        <div class="info-card">
+          <h2 class="section-title" style="margin-bottom: 2rem; font-size: 2rem;">Get In Touch</h2>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="info-content">
+              <h3>Phone Support</h3>
+              <p>Call us for prompt assistance.</p>
+              <a href="tel:+2348107212201">+234 810 721 2201</a>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="info-content">
+              <h3>Email Inquiry</h3>
+              <p>Send us your general inquiries or support requests.</p>
+              <a href="mailto:info.aceprodynamics@gmail.com">info.aceprodynamics@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-clock"></i></div>
+            <div class="info-content">
+              <h3>Operating Hours</h3>
+              <p>We are available <strong style="color: var(--color-primary);">24/7</strong> for emergency support and
+                urgent consultations.</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon"><i class="fa-solid fa-hashtag"></i></div>
+            <div class="info-content">
+              <h3>Social Media</h3>
+              <p>Connect with us online.</p>
+              <div class="flex gap-4" style="margin-top: 0.5rem; font-size: 1.5rem;">
+                <a href="#" title="Acepro Dynamics"><i class="fa-brands fa-linkedin text-primary"></i></a>
+                <a href="#" title="aceprodynamics"><i class="fa-brands fa-instagram text-primary"></i></a>
+                <a href="#" title="Acepro Dynamics"><i class="fa-brands fa-facebook text-primary"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="info-card" style="background-color: var(--color-bg-light); border: none;">
+          <h2 class="section-title" style="margin-bottom: 1rem; font-size: 2rem;">Send a Message</h2>
+          <p class="text-muted" style="margin-bottom: 2rem;">Fill out the form below and our dedicated support team will
+            get back to you immediately.</p>
+
+          <form action="#" method="POST" id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" id="name" name="name" class="form-control" required placeholder="John Doe">
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" id="email" name="email" class="form-control" required placeholder="john@company.com">
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="form-control" required
+                placeholder="How can we help you?">
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" class="form-control" required
+                placeholder="Please describe your inquiry in detail..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.125rem;">Send Message <i
+                class="fa-regular fa-paper-plane" style="margin-left: 0.5rem;"></i></button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section pt-0 section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tagline">Location</span>
+        <h2 class="section-title">Visit Our Headquarters</h2>
+      </div>
+      
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15858.11868352528!2d3.3514864!3d6.5243793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b285c4f39ce%3A0xd33602fc5fc0c732!2sLagos%2C%20Nigeria!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-heading logo" style="color: white; margin-bottom: 1rem;">
+            <i class="fa-solid fa-helmet-safety text-secondary"></i> Acepro & Co.
+          </h3>
+          <p style="color: #CBD5E1; margin-bottom: 1.5rem;">Solutions from the future. The only way to predict the
+            future, is to invent tomorrow's outcomes.</p>
+          <div class="flex gap-4" style="font-size: 1.25rem; color: var(--color-bg-white);">
+            <a href="#" style="transition: color 0.3s;"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" style="transition: color 0.3s;"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" style="transition: color 0.3s;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" style="transition: color 0.3s;"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href=" ./">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="quote.html">Request a Quote</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Contact Information</h4>
+          <ul style="color: #CBD5E1; display: flex; flex-direction: column; gap: 1rem;">
+            <li class="flex items-center gap-4"><i class="fa-solid fa-phone text-secondary"></i> +234 810 721 2201</li>
+            <li class="flex items-center gap-4"><i class="fa-solid fa-envelope text-secondary"></i>
+              info.aceprodynamics@gmail.com</li>
+            <li class="flex items-center gap-4"><i class="fa-solid fa-clock text-secondary"></i> 24/7 Responsiveness
+            </li>
+            <li class="flex items-center gap-4"><i class="fa-brands fa-instagram text-secondary"></i> @aceprodynamics
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2026 Acepro & Co. Dynamics. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  
+  <a href="https://wa.me/2348107212201" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  
+  <script src="scripts/main.js" defer></script>
+</body>
+
+</html>

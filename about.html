@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://images.pexels.com">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Acepro & Co. Dynamics</title>
+  <meta name="description"
+    content="Learn about our story, mission, vision, and the core values that make Acepro & Co. Dynamics the indispensable catalyst for Africa's industrial growth.">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700;800&display=swap"
+    rel="stylesheet">
+
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
+
+  
+  <link rel="stylesheet" href="styles/style.css">
+
+  <style>
+    .page-hero {
+      background: linear-gradient(rgba(11, 32, 70, 0.9), rgba(11, 32, 70, 0.9)), url('https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=1000') center/cover;
+      color: var(--color-bg-white);
+      padding: 6rem 0;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      color: var(--color-bg-white);
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .values-grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media (min-width: 640px) {
+      .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .values-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .value-card {
+      background: var(--color-bg-white);
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: var(--shadow-md);
+      border-top: 4px solid var(--color-secondary);
+      text-align: center;
+      transition: transform var(--transition-fast);
+    }
+
+    .value-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .value-icon {
+      font-size: 2rem;
+      color: var(--color-primary);
+      margin-bottom: 1rem;
+    }
+
+    .value-title {
+      font-size: 1.25rem;
+      font-family: var(--font-family-heading);
+      color: var(--color-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .mission-vision-box {
+      background-color: var(--color-primary);
+      color: var(--color-bg-white);
+      padding: 3rem;
+      border-radius: 8px;
+      height: 100%;
+    }
+
+    .mission-vision-box h3 {
+      color: var(--color-secondary);
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .mission-vision-box p {
+      font-size: 1.125rem;
+      line-height: 1.8;
+      color: #E2E8F0;
+    }
+  </style>
+</head>
+
+<body>
+
+  
+  <header class="navbar">
+    <div class="container flex justify-between items-center">
+      <a href=" ./" class="logo">
+        <i class="fa-solid fa-helmet-safety text-secondary"></i>
+        Acepro & Co. <span>Dynamics</span>
+      </a>
+
+      <button class="mobile-menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links">
+        <a href=" ./" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About Us</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="quote.html" class="btn btn-accent">Request a Quote</a>
+      </nav>
+    </div>
+  </header>
+
+  
+  <section class="page-hero">
+    <div class="container">
+      <h1>Our Story</h1>
+      <p style="font-size: 1.25rem; color: #CBD5E1; max-width: 600px; margin: 0 auto;">Pioneering the future of
+        industrial excellence through expertise and innovation.</p>
+    </div>
+  </section>
+
+  
+  <section class="section section-light">
+    <div class="container">
+      <div class="grid grid-cols-2 items-center" style="gap: 4rem;">
+        <div>
+          <h2 class="section-title">Rooted in Experience. Driven by Innovation.</h2>
+          <p class="text-muted" style="margin-bottom: 1.5rem; font-size: 1.125rem;">
+            Acepro & Co. Dynamics was forged by a team of seasoned professionals who recognized a critical gap in the
+            industry: the need for reliable, forward-thinking solutions that are flawlessly executed.
+          </p>
+          <p class="text-muted">
+            We don't just engineer; we innovate. By leveraging our decades of hands-on, trench-level experience across
+            diverse sectors, we deliver cutting-edge solutions that mitigate risk, eliminate rework, and propel our
+            clients toward unprecedented growth. Every project is an opportunity to prove that the standard can always
+            be raised.
+          </p>
+        </div>
+        <div>
+          <img loading="lazy" decoding="async"
+            src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1920"
+            alt="Engineers working together" class="rounded-lg shadow-lg" style="border-radius: 8px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section pt-0 section-light">
+    <div class="container">
+      <div class="grid grid-cols-2">
+        <div class="mission-vision-box">
+          <h3><i class="fa-solid fa-rocket"></i> Our Mission</h3>
+          <p>To fundamentally transform industries through stewardship, flawless execution, and eco-friendly
+            innovations, leaving a legacy of unparalleled quality and sustainable outcomes.</p>
+        </div>
+        <div class="mission-vision-box" style="background-color: var(--color-primary-light);">
+          <h3><i class="fa-regular fa-eye"></i> Our Vision</h3>
+          <p>To be the indispensable, dynamic catalyst for Africa's industrial growth, shaping the infrastructure of
+            tomorrow with unyielding precision today.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section" style="background-color: var(--color-bg-light);">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tagline">What Drives Us</span>
+        <h2 class="section-title">Our Core Values</h2>
+      </div>
+
+      <div class="values-grid">
+        
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <div class="value-title">Integrity</div>
+          <p class="text-muted">Uncompromising honesty and transparency in every transaction, fostering trust that lasts
+            a lifetime.</p>
+        </div>
+
+        
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-hard-hat"></i></div>
+          <div class="value-title">Safety</div>
+          <p class="text-muted">An absolute, zero-compromise dedication to the well-being of our people, our partners,
+            and the environment.</p>
+        </div>
+
+        
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-lightbulb"></i></div>
+          <div class="value-title">360° Innovative Spirit</div>
+          <p class="text-muted">Continuously thinking outside the box to solve complex challenges with smart, adaptable
+            strategies.</p>
+        </div>
+
+        
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-users"></i></div>
+          <div class="value-title">Customer Focus</div>
+          <p class="text-muted">Aligning our expertise strictly with our clients' objectives to ensure absolute
+            satisfaction.</p>
+        </div>
+
+        
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-medal"></i></div>
+          <div class="value-title">Quality</div>
+          <p class="text-muted">Delivering premium, zero-rework tier results that consistently exceed industry
+            benchmarks.</p>
+        </div>
+
+        
+        <div class="value-card">
+          <div class="value-icon"><i class="fa-solid fa-hands-holding-circle"></i></div>
+          <div class="value-title">Respect</div>
+          <p class="text-muted">Cultivating a culture of mutual respect, inclusivity, and collaboration at all
+            operational levels.</p>
+        </div>
+
+        
+        <div class="value-card" style="grid-column: 1 / -1; max-width: 400px; margin: 0 auto;">
+          <div class="value-icon"><i class="fa-solid fa-arrow-trend-up"></i></div>
+          <div class="value-title">Profitable Growth</div>
+          <p class="text-muted">Driving sustainable economic success that benefits our stakeholders, our clients, and
+            our communities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-heading logo" style="color: white; margin-bottom: 1rem;">
+            <i class="fa-solid fa-helmet-safety text-secondary"></i> Acepro & Co.
+          </h3>
+          <p style="color: #CBD5E1; margin-bottom: 1.5rem;">Solutions from the future. The only way to predict the
+            future, is to invent tomorrow's outcomes.</p>
+          <div class="flex gap-4" style="font-size: 1.25rem; color: var(--color-bg-white);">
+            <a href="#" style="transition: color 0.3s;"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" style="transition: color 0.3s;"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" style="transition: color 0.3s;"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" style="transition: color 0.3s;"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <div class="footer-links">
+            <a href=" ./">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="quote.html">Request a Quote</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Contact Information</h4>
+          <ul style="color: #CBD5E1; display: flex; flex-direction: column; gap: 1rem;">
+            <li class="flex items-center gap-4"><i class="fa-solid fa-phone text-secondary"></i> +234 810 721 2201</li>
+            <li class="flex items-center gap-4"><i class="fa-solid fa-envelope text-secondary"></i>
+              info.aceprodynamics@gmail.com</li>
+            <li class="flex items-center gap-4"><i class="fa-solid fa-clock text-secondary"></i> 24/7 Responsiveness
+            </li>
+            <li class="flex items-center gap-4"><i class="fa-brands fa-instagram text-secondary"></i> @aceprodynamics
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2026 Acepro & Co. Dynamics. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  
+  <a href="https://wa.me/2348107212201" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  
+  <script src="scripts/main.js" defer></script>
+</body>
+
+</html>
